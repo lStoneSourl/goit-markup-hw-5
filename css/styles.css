@@ -113,7 +113,7 @@ p {
     color: var(--header-link-color);
     padding-top: 32px;
     padding-bottom: 32px;
-    transition-property: background-color, color, box-shadow;
+    transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -130,11 +130,10 @@ p {
     position: absolute;
     background-color: #2196F3;
     width: 100%;
-    height: 3px;
-    bottom: 0;
+    height: 4px;
     left: 0;
     border-radius: 2px;
-    bottom: -2px;
+    bottom: -1px;
 }
 
 .header-nav-block {
@@ -241,7 +240,7 @@ p {
     letter-spacing: 0.03em;
     color: var(--header-link-color);
     cursor: pointer;
-    transition-property: background-color, color, box-shadow;
+    transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -267,7 +266,6 @@ p {
 .port-link {
     display: block;
     text-decoration: none;
-    transition-property: transform;
     background: var(--main-back-color);
     transition-property: box-shadow;
     transition-duration: 250ms;
@@ -534,7 +532,7 @@ p {
 
 .foto-icon{
     fill: var(--border-link);
-    transition-property: color;
+    transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -577,7 +575,7 @@ p {
     height: 92px;
     border: 1px solid var(--border-link);
     border-radius: 4px;
-    transition-property: color;
+    transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -589,7 +587,7 @@ p {
 
 .section-icon {
     fill: var(--border-link);
-    transition-property: color;
+    transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -819,7 +817,7 @@ p {
 }
 
   .port-link:hover .text {
-    transform: translatey(-100%);
+    transform: translateY(-100%);
     
 }
   
@@ -834,6 +832,7 @@ p {
     text-align: start;
     padding: 64px 32px;
     background-color: rgba(33, 150, 243, 0.9);
+    transition-property: transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
